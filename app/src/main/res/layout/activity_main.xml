@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mybckgrnd"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@mipmap/myicon_round"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foodie App"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_below="@id/iv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:hint="Username"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@id/tv1"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/myshape"/>
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:hint="Passsword"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_below="@id/edt1"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/myshape"/>
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget password?"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@id/edt2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:text="Sign in"
+        android:background="@drawable/myclick"
+        android:textColor="#3361ff"
+        android:layout_below="@id/tv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@id/b1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_below="@id/tv3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
