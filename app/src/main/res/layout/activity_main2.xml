@@ -34,6 +34,7 @@
     </android.support.v7.widget.Toolbar>
 
 
+  
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="144dp"
@@ -44,7 +45,7 @@
         android:scaleType="center"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/mygrad"
+        app:srcCompat="@drawable/mypic"
         tools:srcCompat="@drawable/mypic" />
 
     <TextView
@@ -92,11 +93,12 @@
         android:layout_height="17dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:text="500 likes"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.188"
         app:layout_constraintStart_toEndOf="@id/ratingBar2"
-        tools:layout_editor_absoluteY="212dp"
         tools:ignore="MissingConstraints" />
     <android.support.constraint.Barrier
         android:id="@+id/barrier"
@@ -127,15 +129,16 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
         android:text="Rs. 180"
         android:textColor="#ff0000"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.66"
         app:layout_constraintLeft_toLeftOf="@id/textView4"
-        app:layout_constraintStart_toEndOf="@+id/textView4"
-        tools:layout_editor_absoluteY="253dp" />
+        app:layout_constraintStart_toEndOf="@+id/textView4" />
 
 
 
